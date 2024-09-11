@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items>
-    <item>
-        <name>Cuirass</name>
-        <type>armor</type>
-        <subtype>medium</subtype>
-        <cost>
-            <value>400</value>
-            <currency>gp</currency>
-        </cost>
-        <weight>20</weight>
-        <armorClass>
-            <base>15</base>
-            <dexterityBonus>
-                <max>3</max>
-            </dexterityBonus>
-        </armorClass>
-        <strengthRequirement>0</strengthRequirement>
-        <stealthDisadvantage>false</stealthDisadvantage>
-        <rarity>common</rarity>
-        <source>Custom Homebrew</source>
-        <notes>Uma armadura média feita de metal resistente, equilibrando defesa e mobilidade.</notes>
-    </item>
-</items>
+<elements>
+    <info>
+        <name>Custom Armor: Cuirass</name>
+        <update version="1.0.0">
+            <file name="custom-armor-cuirass.xml" url="https://raw.githubusercontent.com/Lorenzomb/aurora-custom-items/main/custom-armor-cuirass.xml" />
+        </update>
+    </info>
+
+    <element name="Cuirass" type="Armor" source="Custom Homebrew" id="ID_CUSTOM_ARMOR_CUIRASS">
+        <description>
+            <p>Uma armadura média feita de metal resistente, equilibrando defesa e mobilidade.</p>
+        </description>
+        <setters>
+            <set name="category">Armor</set>
+            <set name="type">Medium</set>
+            <set name="armorClassBase">15</set>
+            <set name="armorClassDexMax">3</set>
+            <set name="strengthRequirement">0</set>
+            <set name="stealthDisadvantage">false</set>
+            <set name="weight">20</set>
+            <set name="cost">400</set>
+            <set name="rarity">common</set>
+        </setters>
+    </element>
+</elements>
