@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+    <item>
+        <name>Cuirass</name>
+        <type>armor</type>
+        <subtype>medium</subtype>
+        <cost>
+            <value>400</value>
+            <currency>gp</currency>
+        </cost>
+        <weight>20</weight>
+        <armorClass>
+            <base>15</base>
+            <dexterityBonus>
+                <max>3</max>
+            </dexterityBonus>
+        </armorClass>
+        <strengthRequirement>0</strengthRequirement>
+        <stealthDisadvantage>false</stealthDisadvantage>
+        <rarity>common</rarity>
+        <source>Custom Homebrew</source>
+        <notes>Uma armadura média feita de metal resistente, equilibrando defesa e mobilidade.</notes>
+    </item>
+</items>
