@@ -3,10 +3,10 @@
 	<info>
 		<name>Custom Armors</name>
 		<update version="1.0.0">
-			<file name="custom-armor-cuirass.index" url="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/custom-armor-cuirass.index" />
+			<file name="custom-armor-cuirass.index" url="https://raw.githubusercontent.com/Lorenzomb/aurora-custom-items/main/custom-armor-cuirass.index" />
 		</update>
 	</info>
 	<files>
-		<file name="custom-armor-cuirass.xml" url="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/custom-armor-cuirass.xml" />
+		<file name="custom-armor-cuirass.xml" url="https://raw.githubusercontent.com/Lorenzomb/aurora-custom-items/main/custom-armor-cuirass.xml" />
 	</files>
 </index>
